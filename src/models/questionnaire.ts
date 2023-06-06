@@ -7,9 +7,8 @@ const QuestionnaireSchema = new Schema<Questionnaire>({
   duration: { type: Number, required: true },
   userId: { type: String, required: true },
   participants: { type: Array<String> },
-  questions: { type: Array<String> },
 });
 
-const QuestionnaireModel = model("Questionnaire", QuestionnaireSchema);
+const QuestionnaireModel = model("questionnaire", QuestionnaireSchema);
 
 export default QuestionnaireModel;

@@ -4,5 +4,4 @@ export interface Questionnaire {
   duration: number;
   userId: string;
   participants?: Array<String>;
-  questions?: Array<String>;
 }
