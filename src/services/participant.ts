@@ -30,8 +30,8 @@ const deleteParticipant = async (id: string) => {
 
 export {
   createParticipant,
-  getParticipants,
-  updateParticipant,
   deleteParticipant,
   getParticipant,
+  getParticipants,
+  updateParticipant,
 };

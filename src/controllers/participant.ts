@@ -58,7 +58,7 @@ const deleteParticipantCtrl = async ({ params }: Request, res: Response) => {
 export {
   deleteParticipantCtrl,
   getParticipantCtrl,
-  updateParticipantCtrl,
-  postParticipantCtrl,
   getParticipantsCtrl,
+  postParticipantCtrl,
+  updateParticipantCtrl,
 };

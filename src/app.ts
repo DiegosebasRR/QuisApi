@@ -4,7 +4,7 @@ import cors from "cors";
 import db from "./config/mongo";
 
 import { router } from "./routes/index";
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3005;
 
 const app = express();
 app.use(express.json());

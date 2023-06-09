@@ -1,9 +1,9 @@
 import { Router } from "express";
 import {
-  postParticipantCtrl,
   deleteParticipantCtrl,
   getParticipantCtrl,
   getParticipantsCtrl,
+  postParticipantCtrl,
   updateParticipantCtrl,
 } from "../controllers/participant";
 
